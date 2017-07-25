@@ -1,0 +1,273 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+form {
+     width: 500px;
+     margin: 0 auto;
+     padding: 0;
+     box-sizing: border-box;
+     position: absolute;
+     top: 5px;
+     left: 82%;
+}
+.search {
+     padding: 6px 15px 6px 15px;
+     margin: 3px;
+     box-sizing: border-box;
+}
+.rounded {
+     border-radius: 10px;
+}                               /*search box ends */
+
+
+.header-section {
+     background-image: url("main.png");
+     width: 100%;
+     height: 80vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.menu ul {
+     color: white;
+     list-style: none;
+     padding-top: 8px;
+
+}
+.menu ul li {
+     display: inline;
+     font-size: 20px;
+     padding: 10px;
+     padding-left: 30px;
+}
+.switch {
+     position: absolute;
+     top: 0;
+     right: 50%;
+     padding-top: 10px;
+}
+.nav-container {
+     position: relative;
+}
+ /*=========== upper nav part ends ================*/
+
+.header-content {
+     /*border: 2px solid red;*/
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.header-content h1 {
+     color: white;
+     font-family: sans-serif;
+     font-size: 50px;
+     margin: 0;
+     /*width: 50%;*/
+     box-sizing: border-box;
+}
+.header-content button {
+     position: relative;
+     left: 35%;
+     padding: 15px 20px;
+     margin-top: 40px;
+     background: #54d154;
+     border-radius: 30px;
+}
+ /*=========================== header section ends ===============*/
+
+ .wrapper {
+      text-align: center;
+}
+.heading {
+     padding-top: 30px;
+     color: #828181;
+}
+.heading h2 {
+     padding-bottom: 20px;
+}
+/*.box-holder box1 {
+     display: inline;
+}*/
+.box-holder {
+     display: flex;
+     margin: 80px;
+     justify-content: space-around;
+}
+.box1 {
+     text-align: center;
+     width: 20%;
+     color: #828181;
+     /*border: 2px solid black;*/
+     position: relative;
+}
+.box1 h2{
+     padding: 20px;
+}
+.box1 button {
+     margin: 30px;
+}
+.on-top {
+     position: absolute;
+     left: 33%;
+     top: 8%;
+}
+.box1 button {
+     background: #54d154;
+     color: white;
+     padding: 5px 20px;
+     border-radius: 20px;
+}
+.third-section {
+     width: 100%;
+     background-color: #54d154;
+}
+.gallery {
+     /*border: 2px solid black;*/
+     width: 60%;
+     height: 45vh;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+
+
+}
+
+/*============================ second section ends ======================*/
+.third-section {
+     background: #54d154;
+}
+.more-work {
+     color: white;
+     background: #2b9b2b;
+     padding: 15px;
+     margin: 40px;
+     border-radius: 20px;
+}
+.tabbed-button {
+     margin: 15px;
+     padding: 15px;
+}
+/*======================= third section ends =====================*/
+
+.saying {
+     width: 40%;
+     margin: 0 auto;
+     margin-top: 60px;
+     /*border: 2px solid black;*/
+     position: relative;
+}
+.arrow {
+     color: grey;
+}
+.fa-arrow-left {
+     position: absolute;
+     left: -85px;
+     top: 40px;
+}
+.fa-arrow-right {
+     position: absolute;
+     right: -85px;
+     top: 40px;
+}
+.herp {
+     position: relative;
+     left: -50px;
+}
+.name {
+     position: relative;
+     bottom: 45px;
+     left: 50px;
+}
+.herp-n-name {
+     margin: 20px;
+}
+
+/*========================= fourth section ends ---------------------------------*/
+.fifth-section {
+     background: #f2f1f1;
+
+}
+
+.logos {
+
+     padding: 30px;
+     border: 2px solid black;
+     width: 70%;
+     /*height: 20vh;*/
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     flex-grow: 2;
+     justify-content: space-between;
+}
+.logos img {
+     padding-right: 40px;
+}
+/*======================= fifth section ends ==========================*/
+.sixth-section {
+     background:  #54d154;
+}
+.sixth-section .heading {
+          color: black;
+}
+.team {
+     /*border: 2px solid black;*/
+     width: 70%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 40px;
+}
+.lines {
+     display: flex;
+     justify-content: space-around;
+     width: 70%;
+     margin: 0 auto;
+}
+.vertical {
+     width: 2px;
+     height: 100px;
+     background: black;
+}
+.names {
+     margin: 30px;
+     padding: 5px;
+     display: flex;
+     justify-content: space-around;
+     width: 70%;
+     margin: 0 auto;
+}
+
+.buttons {
+     display: flex;
+     justify-content: space-around;
+     width: 70%;
+     margin: 0 auto;
+}
+.btn {
+     background: #c5e9c5;
+     padding: 5px 10px;
+     border-radius: 20px;
+}
+.buttons i {
+     padding: 0 5px;
+}
+.extension {
+     margin-top: 50px;
+     width: 100%;
+     height: 15vh;
+     background: #3eba3e;
+}
+.extension button {
+     margin-top: 35px;
+     color: white;
+     background:  #54d154;
+     padding: 10px;
+     border-radius: 25px;
+}
